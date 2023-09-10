@@ -20,7 +20,9 @@ Aqui no Github faça um fork do projeto, abra o VS Code e no terminal digite o s
 
 `git clone https://github.com/USERDOGITHUB/api-pokemon.git`
 
-Após ter feito isso, no VS Code você deverá instalar algumas dependências para que o projeto funcione, sendo a primeira o framework Express para que possa criar um servidor local em sua máquina.
+Após ter feito isso, no VS Code você deverá instalar algumas dependências para que o projeto funcione, sendo a primeira delas o framework Express para que possa criar um servidor local em sua máquina. 
+
+Digite o comando abaixo no terminal do VS Code:
 
 `npm install express`
 
@@ -38,7 +40,7 @@ Antes de iniciar o servidor vá no arquivo package.json e no objeto de script e 
 
 `"dev": "nodemon ./src/index.js"`
 
-Feito isso agora podemos iniciar o servidor com o comando:
+Feito isso agora podemos iniciar o servidor com o comando seguinte no terminal do VS Code:
 
 `npm run dev`
 
